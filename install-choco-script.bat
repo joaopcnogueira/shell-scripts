@@ -17,7 +17,7 @@ choco install openjdk8jre -fy
 choco install winscp.install -fy
 choco install putty -fy
 choco install microsoftazurestorageexplorer -fy
-choco install anaconda3 -fy
+choco install anaconda3 -fy --params '"/AddToPath"' 
 
 :::: Media
 choco install vlc -fy
